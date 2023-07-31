@@ -18,4 +18,4 @@ RUN a2enmod rewrite
 
 RUN composer install --ignore-platform-reqs --no-scripts
 
-CMD bash -c "php artisan serve"
+EXPOSE 80
